@@ -1,0 +1,43 @@
+@-webkit-keyframes lightbtn2 {
+    0% {
+        background-color: red;
+        color: #fff;
+    }
+    100% {
+        background-color: #fff;
+        color: red;
+    }
+}
+
+@-moz-keyframes lightbtn2 {
+    0% {
+        background-color: red;
+        color: #fff;
+    }
+    100% {
+        background-color: #fff;
+        color: red;
+    }
+}
+
+@-o-keyframes lightbtn2 {
+    0% {
+        background-color: red;
+        color: #fff;
+    }
+    100% {
+        background-color: #fff;
+        color: red;
+    }
+}
+
+@keyframes lightbtn2 {
+    0% {
+        background-color: red;
+        color: #fff;
+    }
+    100% {
+        background-color: #fff;
+        color: red;
+    }
+}

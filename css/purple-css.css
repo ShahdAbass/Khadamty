@@ -1,0 +1,35 @@
+.main-header p.h1 {
+    text-align: center;
+}
+
+#service .serv i,
+.Dgreen a {
+    background-color: #350756;
+}
+
+footer a:hover {
+    color: #350756;
+}
+
+#header,
+#ask,
+.cli-btn.color a,
+#about2,
+footer,
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #03b176;
+}
+
+#about1 .h2,
+.cli-btn a,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.turbo-nav div.turbo-next::after,
+.turbo-nav div.turbo-prev::after {
+    color: #03b176;
+}
+
+.Dgreen a,
+.navbar-default .navbar-brand {
+    color: #fff;
+}

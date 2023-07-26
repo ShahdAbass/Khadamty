@@ -1,0 +1,393 @@
+
+@media (min-width:992px) {
+    .ask-p li {
+        width: 50%;
+    }
+    #service .cli-btn {
+        width: 35%;
+        display: inline-block;
+    }
+    #about1,
+    #about2 {
+        text-align: right;
+    }
+    #about2 .cli-btn {
+        width: 50%;
+        float: right;
+    }
+    #about2 .cli-btn a {
+        margin: 0;
+    }
+    .cli-btn.last a {
+        width: 40%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 769px) {
+    .ask-p li {
+        width: 100%;
+    }
+    #service .cli-btn {
+        width: 100%;
+        display: block;
+    }
+    #about1,
+    #about2 {
+        text-align: center;
+    }
+    #about2 .cli-btn {
+        width: 100%;
+        float: none;
+    }
+    #about2 .cli-btn a {
+        margin: auto;
+    }
+    .cli-btn.last a {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .ask-p li {
+        width: 100%;
+    }
+    #service .cli-btn {
+        width: 100%;
+        display: block;
+    }
+    #about1,
+    #about2 {
+        text-align: center;
+    }
+    #about2 .cli-btn {
+        width: 100%;
+        float: none;
+    }
+    #about2 .cli-btn a {
+        margin: auto;
+    }
+    .cli-btn.last a {
+        width: 100%;
+    }
+}
+
+@font-face {
+    font-family: 'ShiliaMedium';
+    src: url('../fonts/shilia/medium/ShiliaMedium.eot?#') format('eot');
+    src: url('../fonts/shilia/meduim/ShiliaMedium.woff') format('woff'), url('../fonts/shilia/meduim/ShiliaMedium.ttf') format('truetype'), url('../fonts/shilia/meduim/ShiliaMedium.svg#ShiliaMedium') format('svg')
+}
+
+/* bootstrap edit */
+
+.navbar-default {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: none;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background: #fff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border: none;
+}
+
+/* bootstrap edit */
+
+/* index css  */
+
+body {
+    font-family: 'ShiliaMedium';
+    line-height: 1.5em;
+    overflow-x: hidden;
+    background-color: #FFF;
+}
+
+#header::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+#header,
+nav,
+.main-header {
+    position: relative;
+}
+
+nav,
+.main-header {
+    z-index: 99;
+}
+
+.main-header p.add {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+#turbo img {
+    width: 100% !important;
+}
+
+.turbo-nav {
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+}
+
+.turbo-nav div,
+.turbo-nav div.turbo-next::after,
+.turbo-nav div.turbo-prev::after {
+    width: 45px;
+    height: 45px;
+    background: none;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 24px;
+    margin: 10px 2px;
+    z-index: 99;
+    top: 45%;
+    font-size: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#service {
+    color: #3e3e3e;
+}
+
+.turbo-nav div.turbo-next::after,
+.turbo-nav div.turbo-prev::after {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 45px;
+    margin: 0;
+    text-align: center;
+}
+
+.turbo-nav div.turbo-next::after {
+    content: ">";
+}
+
+.turbo-nav div.turbo-prev::after {
+    content: "<";
+}
+
+.turbo-nav div.turbo-next {
+    right: 20px;
+}
+
+.turbo-nav div.turbo-prev {
+    left: 20px;
+}
+
+.main-info {
+    padding: 20px 20px;
+}
+
+.cli-btn {
+    width: 100%;
+}
+
+.cli-btn a {
+    text-decoration: none;
+    width: 70%;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.ask-p {
+    width: 100%;
+    list-style: none;
+}
+
+.ask-p li {
+    display: inline-block;
+    float: right;
+}
+
+#service {
+    padding-bottom: 30px;
+}
+
+#service .serv {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#service .serv i {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    margin: -30px auto 5px auto;
+}
+
+
+
+#about1 {
+    color: #191c18;
+    position: relative;
+    display: block;
+}
+
+#about1 .container,
+#about2 .container {
+    z-index: 9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#about1 .h3 {
+    color: #555;
+}
+
+#about1 .h4,
+#about2 .h4 {
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+#about2 img {
+    margin-top: 10px;
+}
+
+.cont1 {
+    /*background: rgba(255,255,255,0.9);*/
+    padding: 20px;
+}
+
+.last-info {
+    color: #555;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+/* index css  */
+
+/* merge css  */
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.turbo-nav div.turbo-next::after,
+.turbo-nav div.turbo-prev::after {
+    background-color: #fff;
+}
+
+body,
+.cli-btn.color a,
+footer a,
+footer,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.Dgreen a {
+    color: #fff;
+}
+
+#about1 .h2,
+#about2 .h2 {
+    font-weight: bold;
+}
+
+img {
+    margin: auto;
+}
+
+#service .cli-btn a,
+#about1 .cli-btn a,
+#about2 .cli-btn a,
+.cli-btn.last a {
+    font-size: 20px;
+}
+
+#turbo,
+#turbo2,
+#turbo3 {
+    text-align: center;
+    width: 100%;
+}
+
+#turbo img,
+#turbo2 img,
+#turbo3 img {
+    width: 100%;
+}
+
+
+
+#ask,
+#last {
+    padding: 30px 0 30px 0;
+}
+
+/* merge css  */
+
+.anibtn {
+    -webkit-animation: lightbtn2 0.9s infinite;
+    /* Safari 4+ */
+    -moz-animation: lightbtn2 0.9s infinite;
+    /* Fx 5+ */
+    -o-animation: lightbtn2 0.9s infinite;
+    /* Opera 12+ */
+    animation: lightbtn2 0.9s infinite;
+    /* IE 10+, Fx 29+ */
+}
+
+.anibtn:hover {
+    animation: none;
+    /* IE 10+, Fx 29+ */
+}
+
+.cli-btn a:hover {
+    -webkit-box-shadow: 0 22px 45px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 22px 45px 0 rgba(0, 0, 0, .2);
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.turbo-nav div.turbo-next::after,
+.turbo-nav div.turbo-prev::after,
+.cli-btn a {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
